@@ -11,13 +11,16 @@ Client = Client(
 
 START_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('SOURCE CODE', url="https://github.com/SpamShield/service-regexlink-cleaner")
+        InlineKeyboardButton('ғᴏʀ ᴄʜᴀᴛ👻', url="https://t.me/houseofghost")
+        ]]
+        [[
+        InlineKeyboardButton('ɢʜᴏsᴛ👻', url="https://t.me/@My_Dear_lightbright")
         ]]
     ) 
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(bot, message):
-    await message.reply_sticker("CAACAgUAAxkBAAEBcr1hsLH3Nu0-qQpwwWQ7FkF58xnwSgACpAMAAjieoFU-Q-udLfwBUx4E")
+    await message.reply_sticker("CAACAgIAAxkBAAIlnWKDiLoKLgZ5vv1DO730tIFB7pCVAAK3AAMw1J0Rmj-D7OSiEk8kBA")
     await message.reply_text(
         f""" Hai {message.from_user.mention} am Service Message, command and link deleter bot.""", 
         disable_web_page_preview=True,

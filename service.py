@@ -12,8 +12,8 @@ Client = Client(
 START_BUTTON = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('ғᴏʀ ᴄʜᴀᴛ👻', url="https://t.me/houseofghost")
-        ]
-        [
+        ]], 
+        [[
         InlineKeyboardButton('ɢʜᴏsᴛ👻', url="https://t.me/My_Dear_lightbright")
         ]]
     ) 
